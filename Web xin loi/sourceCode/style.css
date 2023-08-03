@@ -6,7 +6,6 @@
   height: 100vh;
 }
 .author {
-  font-size: small;
   color: palevioletred;
 }
 .title {
@@ -42,7 +41,7 @@
   width: 100px;
   height: 100px;
   background-color: rgba(247, 131, 170);
-  border-radius: 50%;
+  border-radius: 100%;
   position: absolute;
 }
 
@@ -60,10 +59,13 @@
 .main {
   display: none;
   z-index: 10;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.text{
+  font-size: larger;
 }
 .text-sorry-2 {
   animation-delay: 6s;
+  font-size: large;
 }
 .text-sorry-3 {
   animation-delay: 8s;
@@ -88,12 +90,15 @@
   background-color:rgb(233, 183, 233);
 }
 .video {
-  width: 30%;
+  width: 35%;
   border: 2px solid plum;
 }
 
 
 /* page-four */
-img{
-  width: 10rem;
+.page-four{
+  display:none;
+}
+.continue-two {
+  animation-delay: 15s;
 }
